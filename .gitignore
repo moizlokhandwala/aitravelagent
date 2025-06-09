@@ -1,0 +1,17 @@
+# Python
+*.pyc
+__pycache__/
+*.log
+
+# Env
+.env
+venv/
+.env.*
+
+# Node.js (for frontend)
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
