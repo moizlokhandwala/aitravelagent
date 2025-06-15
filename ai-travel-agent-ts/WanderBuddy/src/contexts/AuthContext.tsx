@@ -34,8 +34,8 @@ export const useAuth = () => {
   return context;
 };
 
-const API_BASE_URL = 'http://127.0.0.1:10000';
-
+//const API_BASE_URL = 'http://127.0.0.1:10000';
+const API_BASE_URL = 'https://ai-travel-backend.onrender.com';
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(false);

@@ -13,8 +13,8 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
 import { User, FileText, Heart } from 'lucide-react';
 
-const API_BASE_URL = 'http://127.0.0.1:10000';
-
+//const API_BASE_URL = 'http://127.0.0.1:10000';
+const API_BASE_URL = 'https://ai-travel-backend.onrender.com';
 const ProfileCreation = () => {
   const navigate = useNavigate();
   const { user, updateUser } = useAuth();

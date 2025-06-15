@@ -11,8 +11,8 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
 import { Send, Filter, MapPin, Calendar, DollarSign, Users, Sparkles, LogOut, FileText } from 'lucide-react';
 
-const API_BASE_URL = 'http://127.0.0.1:10000';
-
+//const API_BASE_URL = 'http://127.0.0.1:10000';
+const API_BASE_URL = 'https://ai-travel-backend.onrender.com';
 const HomePage = () => {
   const { user, logout } = useAuth();
   const { toast } = useToast();
